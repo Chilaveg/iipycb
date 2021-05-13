@@ -1,0 +1,78 @@
+[    0.470245] ACPI: bus type USB registered
+[    0.470245] usbcore: registered new interface driver usbfs
+[    0.470245] usbcore: registered new interface driver hub
+[    0.470245] usbcore: registered new device driver usb
+[    0.587618] pci 0000:00:1a.0: quirk_usb_early_handoff+0x0/0x6b0 took 23867 usecs
+[    0.611615] pci 0000:00:1d.0: quirk_usb_early_handoff+0x0/0x6b0 took 23409 usecs
+[    1.450120] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.450357] ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
+[    1.467505] ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+[    1.467600] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+[    1.467603] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.467606] usb usb1: Product: EHCI Host Controller
+[    1.467607] usb usb1: Manufacturer: Linux 5.4.0-66-generic ehci_hcd
+[    1.467609] usb usb1: SerialNumber: 0000:00:1a.0
+[    1.467764] hub 1-0:1.0: USB hub found
+[    1.468298] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+[    1.487474] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+[    1.487533] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+[    1.487535] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.487536] usb usb2: Product: EHCI Host Controller
+[    1.487538] usb usb2: Manufacturer: Linux 5.4.0-66-generic ehci_hcd
+[    1.487539] usb usb2: SerialNumber: 0000:00:1d.0
+[    1.487696] hub 2-0:1.0: USB hub found
+[    1.487877] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    1.487905] uhci_hcd: USB Universal Host Controller Interface driver
+[    1.488115] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+[    1.489368] usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+[    1.489370] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.489371] usb usb3: Product: xHCI Host Controller
+[    1.489373] usb usb3: Manufacturer: Linux 5.4.0-66-generic xhci-hcd
+[    1.489374] usb usb3: SerialNumber: 0000:00:14.0
+[    1.489504] hub 3-0:1.0: USB hub found
+[    1.489693] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
+[    1.489696] xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+[    1.489742] usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.04
+[    1.489743] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.489745] usb usb4: Product: xHCI Host Controller
+[    1.489746] usb usb4: Manufacturer: Linux 5.4.0-66-generic xhci-hcd
+[    1.489748] usb usb4: SerialNumber: 0000:00:14.0
+[    1.489867] hub 4-0:1.0: USB hub found
+[    1.815467] usb 1-1: new high-speed USB device number 2 using ehci-pci
+[    1.827463] usb 3-1: new full-speed USB device number 2 using xhci_hcd
+[    1.827470] usb 2-1: new high-speed USB device number 2 using ehci-pci
+[    1.980266] usb 1-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    1.980269] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.980571] hub 1-1:1.0: USB hub found
+[    1.984141] usb 2-1: New USB device found, idVendor=8087, idProduct=0024, bcdDevice= 0.00
+[    1.984144] usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.984448] hub 2-1:1.0: USB hub found
+[    1.984629] usb 3-1: New USB device found, idVendor=09da, idProduct=588f, bcdDevice=99.00
+[    1.984632] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    1.984635] usb 3-1: Product: USB Device
+[    1.984637] usb 3-1: Manufacturer: COMPANY
+[    2.007393] usbcore: registered new interface driver usbhid
+[    2.007394] usbhid: USB HID core driver
+[    2.031545] input: COMPANY USB Device as /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.0/0003:09DA:588F.0001/input/input12
+[    2.095665] hid-generic 0003:09DA:588F.0001: input,hidraw0: USB HID v1.11 Keyboard [COMPANY USB Device] on usb-0000:00:14.0-1/input0
+[    2.095877] input: COMPANY USB Device as /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.1/0003:09DA:588F.0002/input/input13
+[    2.096087] hid-generic 0003:09DA:588F.0002: input,hidraw1: USB HID v1.11 Mouse [COMPANY USB Device] on usb-0000:00:14.0-1/input1
+[    2.096461] input: COMPANY USB Device Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/0003:09DA:588F.0003/input/input14
+[    2.155677] input: COMPANY USB Device System Control as /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/0003:09DA:588F.0003/input/input15
+[    2.155794] input: COMPANY USB Device Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/0003:09DA:588F.0003/input/input16
+[    2.155879] input: COMPANY USB Device as /devices/pci0000:00/0000:00:14.0/usb3/3-1/3-1:1.2/0003:09DA:588F.0003/input/input17
+[    2.156009] hid-generic 0003:09DA:588F.0003: input,hiddev0,hidraw2: USB HID v1.11 Keyboard [COMPANY USB Device] on usb-0000:00:14.0-1/input2
+[    2.275487] usb 1-1.1: new full-speed USB device number 3 using ehci-pci
+[    2.388132] usb 1-1.1: New USB device found, idVendor=8087, idProduct=07da, bcdDevice=78.69
+[    2.388135] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.467466] usb 1-1.2: new high-speed USB device number 4 using ehci-pci
+[    2.685531] usb 1-1.2: New USB device found, idVendor=13d3, idProduct=5165, bcdDevice= 8.23
+[    2.685534] usb 1-1.2: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    2.685536] usb 1-1.2: Product: USB Camera
+[    2.685537] usb 1-1.2: Manufacturer: Azurewave
+[    2.685538] usb 1-1.2: SerialNumber: NULL
+[   23.637943] usbcore: registered new interface driver btusb
+[   28.223882] uvcvideo: Found UVC 1.00 device USB Camera (13d3:5165)
+[   28.240949] input: USB Camera: USB 2.0 UVC HD Webc as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.2/1-1.2:1.0/input/input24
+[   28.241059] usbcore: registered new interface driver uvcvideo
+[   28.241060] USB Video Class driver (1.1.1)

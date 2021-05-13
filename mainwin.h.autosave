@@ -1,0 +1,21 @@
+#ifndef MAINWIN_H
+#define MAINWIN_H
+
+#include <QObject>
+#include <QDebug>
+
+
+class MyClass : public QObject
+{
+Q_OBJECT
+public:
+    
+explicit MyClass(QObject *parent = 0);
+    
+signals: 
+    void sendToQml(QString cmd1);
+    
+public slots:
+void cppSlots();
+};
+#endif // MAINWIN_H
